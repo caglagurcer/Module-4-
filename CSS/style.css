@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    background: linear-gradient(to bottom,rgb(159, 245, 20) 0%, #53cff1 100%);
+    outline: 5px solid #88bbc9;
+    outline-offset: 5px;
+    font-size: 3rem; color: #fff;
+    padding: 3em;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+body {
+    background-color:rgb(228, 231, 223);
+}
+
