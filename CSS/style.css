@@ -1,20 +1,73 @@
 * {
     box-sizing: border-box;
 }
-h1 {
+.box{
     text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    height: 500px;
+    margin-top: 5em;
     background: linear-gradient(to bottom,rgb(159, 245, 20) 0%, #53cff1 100%);
     outline: 5px solid #88bbc9;
     outline-offset: 5px;
     font-size: 3rem; color: #fff;
-    padding: 3em;
-    margin-left: 5em;
-    margin-right: 5em;
-    margin-top: 300px;
-    margin-bottom: 300px;
+}
+.box .text {
+    font-size: 1em;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 
 body {
     background-color:rgb(228, 231, 223);
 }
 
+@media (min-width: 320px) and (max-width: 480px){
+    .box {
+        text-align: center;
+        font-size: 2em;
+    }
+    .box .text {
+        padding-top: 5em;
+    }
+
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .box {
+        text-align: center;
+        font-size: 2em;
+    }
+    .box .text {
+        padding-top: 6em;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .box {
+        text-align: center;
+        font-size: 2em;
+    }
+    .box .text {
+        padding-top: 6em;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .box {
+        text-align: center;
+        font-size: 2.5em;
+    }
+    .box .text {
+        padding-top: 4.5em;
+    }
+}
+
+@media (min-width: 1201) {
+    .box {
+        text-align: center;
+        font-size: 2em;
+    }
+    .box .text {
+        padding-top: 5em;
+    }
+}
